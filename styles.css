@@ -1,0 +1,29 @@
+html {
+  height: 100%
+}
+
+body {
+  height: 90%;
+  margin: 2%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+div.jumbotron jumbotron-fluid {
+  height: 50%;
+  margin: 0;
+  background-color: skyblue;
+  border-width: 2px;
+}
